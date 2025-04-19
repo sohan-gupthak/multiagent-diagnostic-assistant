@@ -1,0 +1,17 @@
+# Google ADK configuration for multi-agent diagnostic system
+agents:
+  - name: nlp_agent
+    module: agents.nlp_agent
+    class: NLPAgent
+  - name: diagnosis_agent
+    module: agents.diagnosis_agent
+    class: DiagnosisAgent
+  - name: treatment_agent
+    module: agents.treatment_agent
+    class: TreatmentAgent
+  - name: symptom_checker_agent
+    module: agents.symptom_checker_agent
+    class: SymptomCheckerAgent
+coordinator:
+  module: coordinator
+  class: Coordinator

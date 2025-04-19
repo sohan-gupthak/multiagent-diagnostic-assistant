@@ -1,0 +1,9 @@
+symptom,disease,treatment
+fever,Flu,Rest and hydration
+cough,Flu,Rest and hydration
+cough,COVID-19,Isolation and supportive care
+shortness of breath,COVID-19,Hospitalization if severe
+chest pain,Heart Attack,Emergency intervention
+headache,Migraine,Pain relief medication
+sore throat,Strep Throat,Antibiotics
+loss of consciousness,Seizure,Emergency care
