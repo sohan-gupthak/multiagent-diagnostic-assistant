@@ -53,12 +53,6 @@ Returns:
 - Expand mock data or connect to real medical datasets.
 - Add authentication and audit logging for clinical use.
 
----
-
-This project is for demonstration and educational purposes only. Not for clinical use without further validation.
-
----
-
 # System Architecture & Flow
 
 This section explains how the multi-agent AI Diagnostic Assistant processes a user prompt, orchestrates agent reasoning, and produces clinically robust output. Use this for technical understanding or presentations.

@@ -24,7 +24,6 @@ class Coordinator:
             self.gemini_agent = GeminiAgent()
 
     def process(self, user_input: str):
-        # Always run both Gemini and local agents
         gemini_result = None
         if self.use_gemini:
             gemini_result = self.gemini_agent.analyze(user_input)
